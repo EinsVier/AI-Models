@@ -1,0 +1,129 @@
+h1#global-wieit-ki-recherche-beispielhafter-workflow .subtitle {
+  display: inline-block;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #3a6ea5;
+  margin-top: 0.2em;
+}
+/* Überschrift (h1) weniger dominant */
+h1#global-wieit-ki-recherche-beispielhafter-workflow {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 0.2em;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f8fafc;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto 3rem auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: #1a4e8a;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e7ef;
+  margin: 2.5rem 0 2rem 0;
+}
+
+blockquote {
+  background: #eaf3ff;
+  border-left: 4px solid #1a4e8a;
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  color: #234;
+}
+
+code,
+pre {
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  background: #f3f6fa;
+  color: #1a4e8a;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  margin: 1.2em 0;
+}
+
+a {
+  color: #1a4e8a;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #e67e22;
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  margin-left: 1.5em;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin: 0.5em 0;
+}
+
+.pdf-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+
+.pdf-link img {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+}

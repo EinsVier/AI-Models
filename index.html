@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global WiEIT KI-Recherche – Beispielhafter Workflow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <h1 id="global-wieit-ki-recherche-beispielhafter-workflow">Workflow: KI-Tools für Recherche &amp; Präsentation<br>
+    <span class="subtitle">am Beispiel „Global Women in Engineering and IT“</span>
+    </h1>
+    <h2 id="ziel">Ziel:</h2>
+    <p>In diesem Leitfaden erfährst du Schritt für Schritt, wie du mit frei verfügbaren KI-Tools eine Recherche durchführst, die Ergebnisse aufbereitest und multimedial präsentierst. Als Beispielthema dient „Global Women in Engineering and IT (Global WiEIT)“. Die Anleitung ist so gestaltet, dass du sie leicht auf eigene Themen übertragen kannst.</p>
+    <blockquote>
+      <p><strong>Praxisbeispiel aus der HTW Berlin:</strong></p>
+      <p>Als Inspiration dient das Projekt <a
+          href="https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=3159" target="_blank">“Global
+          WiEIT – Women in Engineering and IT”</a> der HTW Berlin. Es zeigt, wie internationale Zusammenarbeit und
+      Diversität in MINT-Fächern gefördert werden können.</p>
+    </blockquote>
+    <p>Die Anleitung ist so gestaltet, dass du sie leicht nachmachen und auf eigene Themen übertragen kannst.</p>
+    <hr />
+    <h2 id="workflow-auf-einen-blick">🗺️ Workflow auf einen Blick</h2>
+    <ol type="1">
+      <li><strong>Prompt für Storm erstellen:</strong> Formuliere eine präzise Fragestellung.</li>
+      <li><strong>Recherche bei Storm durchführen:</strong> Nutze KI, um relevante Informationen zu sammeln.</li>
+      <li><strong>Zusammenfassung als PDF speichern:</strong> Sichere die Ergebnisse übersichtlich.</li>
+      <li><strong>Weiterverarbeitung &amp; Auswertung mit NotebookLM:</strong> Strukturiere und analysiere die Inhalte weiter.</li>
+      <li><strong>Audio-Zusammenfassung mit NotebookLM erzeugen:</strong> Lass dir die wichtigsten Erkenntnisse vorlesen.</li>
+      <li><em>(Optional)</em> <strong>Kurzes Video zur Zusammenfassung erstellen:</strong> Präsentiere die Ergebnisse anschaulich.</li>
+      <li><strong>Alle Schritte dokumentieren &amp; Anleitung veröffentlichen:</strong> Teile deinen Workflow mit anderen.</li>
+    </ol>
+    <hr />
+    <h2 id="schritt-für-schritt-anleitung">🚦
+      Schritt-für-Schritt-Anleitung</h2>
+    <h3 id="prompt-für-storm-erstellen">1️⃣ Prompt für Storm erstellen</h3>
+    <p>Formuliere einen klaren, prägnanten Prompt (max. 20 Wörter, keine Sonderzeichen wie Doppelpunkte). Je präziser dein Prompt, desto relevanter die Ergebnisse!</p>
+    <blockquote>
+      <p><strong>Beispiel:</strong><br>
+      Global Women in Engineering and IT, focus on international projects, diversity, education, HTW&nbsp;Berlin
+      </p>
+    </blockquote>
+    <p>💡 <em>Tipp: Je präziser der Prompt, desto relevanter die Ergebnisse!</em></p>
+
+    <div class="prompt-tip">
+      <p>💡 <strong>Tipp: ChatGPT als Prompt-Generator</strong></p>
+      <p>Du kannst ChatGPT nutzen, um schnell verschiedene Storm-Prompts zu deinem Recherchethema zu erstellen. Formuliere dein Thema in 1–2 Sätzen und bitte ChatGPT um mehrere Varianten mit jeweils maximal 20 Wörtern.</p>
+      <p><strong>Beispiel-Frage an ChatGPT:</strong></p>
+      <blockquote>Formuliere für Storm drei Prompts (max. 20 Wörter, wie bei Storm üblich auf Englisch) zu folgendem Thema: [DEIN THEMA]</blockquote>
+      <p>Nutze dann den Vorschlag, der am besten passt, oder kombiniere mehrere.</p>
+      <p><strong>Beispiele für von ChatGPT erzeugte (optimierte) Prompts:</strong></p>
+      <blockquote>
+        Women in IT, best practices worldwide, empowerment, role models, projects, education, challenges<br>
+        <br>
+        Global initiatives for women in tech, success stories, diversity, educational programs, international collaboration, HTW Berlin<br>
+        <br>
+        Advancing women in engineering and IT, global impact, diversity initiatives, educational access, leadership opportunities
+      </blockquote>
+    </div>
+    <hr />
+    <h3 id="recherche-mit-storm-durchführen">2️⃣ Recherche mit Storm
+      durchführen</h3>
+    <ol type="1">
+      <li>Öffne <a
+          href="https://storm.genie.stanford.edu" target="_blank">storm.genie.stanford.edu</a></li>
+      <li>Melde dich mit einem (kostenlosen) Account an.</li>
+      <li>Wähle als Session-Typ <strong>“Storm Article”</strong> aus
+        (empfohlen für strukturierte Zusammenfassungen).</li>
+      <li>Wähle ein geeignetes Modell aus (z.B. GPT-4, Claude, Gemini).</li>
+      <li>Gib deinen Prompt ein und starte die Recherche.</li>
+      <li>Warte, bis die KI eine Zusammenfassung erstellt hat.</li>
+    </ol>
+    <p><a href="images/beispiel-storm-screenshot.png" target="_blank">
+        <img src="images/beispiel-storm-screenshot.png" width="80" /> </a>
+      <!-- Optional: Screenshot einfügen --></p>
+    <hr />
+    <h3 id="zusammenfassung-als-pdf-speichern">3️⃣ Zusammenfassung als PDF speichern</h3>
+    <p>Nach Abschluss der Recherche kannst du die Zusammenfassung meist direkt als PDF herunterladen (Download-Button nutzen). <em>Alle verwendeten Quellen werden als Link am Ende der PDF aufgeführt – das sorgt für Transparenz, Nachvollziehbarkeit und erleichtert die Weiterverwendung.</em></p>
+    <p><a href="./STORM-Zusammenfassung-WiEIT-KI-Recherche.pdf" target="_blank" class="pdf-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" width="32"
+        style="vertical-align:middle; margin-right:8px;" alt="PDF-Icon" />
+        <b>STORM-Zusammenfassung-WiEIT-KI-Recherche.pdf</b> </a></p>
+    <blockquote>
+      <p><strong>Tipp:</strong> Benenne die Datei sinnvoll, z.B.
+        <code>STORM-Zusammenfassung-WiEIT-KI-Recherche.pdf</code>.</p>
+    </blockquote>
+    <hr />
+    <h3 id="weiterverarbeitung-in-notebooklm">4️⃣ Weiterverarbeitung in
+      NotebookLM</h3>
+    <ol type="1">
+      <li>Gehe zu <a href="https://notebooklm.google.com/" target="_blank">NotebookLM</a></li>
+      <li>Melde dich mit deinem Google-Account an.</li>
+      <li>Erstelle ein neues Projekt</li>
+      <li>Lade das PDF hoch</li>
+      <li>Nutze die Funktionen von NotebookLM für Notizen, Gliederung und weiterführende Fragen</li>
+    </ol>
+    <p><a href="images/beispiel-notebooklm-screenshot.png" target="_blank">
+        <img src="images/beispiel-notebooklm-screenshot.png" width="80" /> </a>
+      <!-- Optional: Screenshot einfügen --></p>
+    <hr />
+    <h3 id="audio-zusammenfassung-erstellen">5️⃣ Audio-Zusammenfassung erstellen</h3>
+    <ol type="1">
+      <li>Wähle in NotebookLM die Option „Audio-Zusammenfassung“.</li>
+      <li>Optional: Passe die Audio-Zusammenfassung mit einem Steer-Prompt an, z. B. für einen lockeren Ton oder einen bestimmten Dialekt.</li>
+    </ol>
+    <blockquote>
+      <p><strong>Beispiel für einen Steer-Prompt:</strong></p>
+      <p><em>Fasse die wichtigsten Erkenntnisse locker und in der Du-Form zusammen. Eine Person spricht mit leichtem Berliner Dialekt.</em></p>
+    </blockquote>
+    <h4 id="audio-zusammenfassungen" style="margin-top:1.5em;">Beispiele für Audio-Zusammenfassungen</h4>
+    <div style="margin-left:2em;">
+      <p><strong>Deutsche Fassung:</strong><br />
+      <audio controls>
+        <source src="audio/Globale_Frauen_in_Ingenieurwesen_und_IT_Ein_HTW-Projekt_german.wav" type="audio/wav">
+        Dein Browser unterstützt das Audio-Element nicht.
+      </audio>
+      </p>
+      <p><strong>Englische Fassung:</strong><br />
+      <audio controls>
+        <source src="audio/Globale_Frauen_in_Ingenieurwesen_und_IT_Ein_HTW-Projekt_english.wav" type="audio/wav">
+        Dein Browser unterstützt das Audio-Element nicht.
+      </audio>
+      </p>
+    </div>
+    <hr />
+    <h3 id="optional-video-zur-zusammenfassung-erstellen">6️⃣ (Optional)
+      Video zur Zusammenfassung erstellen</h3>
+    <p>Nutze Tools wie <a href="https://lumen5.com/">Lumen5</a> oder <a
+        href="https://pictory.ai/">Pictory</a>, um aus der Audio-Zusammenfassung
+      ein kurzes Video zu machen.</p>
+    <blockquote>
+      <p><strong>Tipp:</strong> Ein Video eignet sich besonders gut für Social
+        Media oder Präsentationen.</p>
+    </blockquote>
+    <hr />
+    <h3 id="veröffentlichung-dokumentation">7️⃣ Veröffentlichung &amp;
+      Dokumentation</h3>
+    <ol type="1">
+      <li>Dokumentiere alle Schritte in diesem Repository</li>
+      <li>Füge Screenshots oder Beispiel-Dateien hinzu (Prompt, PDF, Audio,
+        ggf. Video)</li>
+      <li>Teile die Anleitung mit anderen!</li>
+    </ol>
+    <hr />
+    <h2 id="beispielhafte-projektstruktur">📁 Beispielhafte Projektstruktur</h2>
+    <pre class="text"><code>/AI-Models
+│
+├── README.md                                 # Diese Anleitung
+├── images/
+│   ├── beispiel-notebooklm-screenshot.png    # Screenshot NotebookLM
+│   └── beispiel-storm-screenshot.png         # Screenshot Storm
+├── STORM-Zusammenfassung-WiEIT-KI-Recherche.pdf
+├── audio/
+│   ├── Globale_Frauen_in_Ingenieurwesen_und_IT_Ein_HTW-Projekt_german.wav   # Audio deutsch
+│   └── Globale_Frauen_in_Ingenieurwesen_und_IT_Ein_HTW-Projekt_english.wav  # Audio englisch
+└── Global WiEIT KI-Recherche – Ein Beispiel-Workflow.md                  # Workflow-Dokumentation
+</code></pre>
+    <hr />
+    <h2 id="ℹ-hinweise-tipps">ℹ️ Hinweise &amp; Tipps</h2>
+    <ul>
+      <li>Alle verwendeten Tools sind (Stand: Juni 2025) frei zugänglich.</li>
+      <li>Entferne persönliche oder sensible Daten vor der Veröffentlichung.</li>
+      <li>Bei Fragen oder Hinweisen: Eröffne einfach ein Issue im Repository!</li>
+      <li>Es gibt noch viele weitere Tools und Wege, um Recherchen mit KI zu gestalten – diese Anleitung soll vor allem als Inspiration und Einstieg dienen.</li>
+      <li>Weitere Infos und Modell-Übersicht: <a href="https://github.com/EinsVier/AI-Models/wiki" target="_blank">Projekt-Wiki</a></li>
+    </ul>
+    <hr />
+    <p><strong>Viel Erfolg beim Nachmachen und Teilen!</strong> 🚀</p>
+    <hr />
+  </main>
+</body>
+
+</html>
