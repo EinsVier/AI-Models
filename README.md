@@ -12,11 +12,6 @@ In diesem Leitfaden erfährst du Schritt für Schritt, wie du mit frei verfügba
 >
 > Als Inspiration dient das Projekt ["Global WiEIT – Women in Engineering and IT"](https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=3159) der HTW Berlin. Es zeigt, wie internationale Zusammenarbeit und Diversität in MINT-Fächern gefördert werden können.
 
-
-
-
-
-
 ## 🗺️ Workflow auf einen Blick
 
 1. **Prompt für Storm erstellen:** Formuliere eine präzise Fragestellung.
@@ -48,6 +43,7 @@ Formuliere einen klaren, prägnanten Prompt (max. 20 Wörter, keine Sonderzeiche
 💡 **Tipp: ChatGPT als Prompt-Generator**
 
 Du kannst ChatGPT nutzen, um schnell verschiedene Storm-Prompts zu deinem Recherchethema zu erstellen. Formuliere dein Thema in 1–2 Sätzen und bitte ChatGPT um mehrere Varianten mit jeweils maximal 20 Wörtern.
+Optional kann ChatGPT auch gleich einen freundlichen Satz zum "Writing Purpose" ergänzen, damit die Frage höflich und vollständig beantwortet wird.
 
 **Beispiel-Frage an ChatGPT:**
 
