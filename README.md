@@ -36,14 +36,18 @@ Formuliere einen klaren, prägnanten Prompt (max. 20 Wörter, keine Sonderzeiche
 
 > `Global Women in Engineering and IT, focus on international projects, diversity, education, HTW Berlin`
 
-
 💡 *Tipp: Je präziser der Prompt, desto relevanter die Ergebnisse!*
-
 
 💡 **Tipp: ChatGPT als Prompt-Generator**
 
 Du kannst ChatGPT nutzen, um schnell verschiedene Storm-Prompts zu deinem Recherchethema zu erstellen. Formuliere dein Thema in 1–2 Sätzen und bitte ChatGPT um mehrere Varianten mit jeweils maximal 20 Wörtern.
-Optional kann ChatGPT auch gleich einen freundlichen Satz zum "Writing Purpose" ergänzen, damit die Frage höflich und vollständig beantwortet wird.
+
+<details>
+<summary>💡 <strong>Hinweis zum "Writing Purpose"</strong></summary>
+
+Optional kann ChatGPT auch gleich einen freundlichen Satz zum <em>Writing Purpose</em> ergänzen, damit die Frage höflich und vollständig beantwortet wird.
+
+</details>
 
 **Beispiel-Frage an ChatGPT:**
 
