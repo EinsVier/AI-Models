@@ -169,7 +169,7 @@ Nutze Tools wie [Lumen5](https://lumen5.com/) oder [Pictory](https://pictory.ai/
 - Bei Fragen oder Hinweisen: Eröffne einfach ein Issue im Repository!
 - Es gibt noch viele weitere Tools und Wege, um Recherchen mit KI zu gestalten – diese Anleitung soll vor allem als Inspiration und Einstieg dienen.
 - Weitere Infos und Modell-Übersicht: [Projekt-Wiki](https://github.com/EinsVier/AI-Models/wiki)
-- Siehe auch:[KI-Tools Übersicht](https://github.com/EinsVier/KI-Tools/blob/main/README.md) 
+- Siehe auch: [KI-Tools Übersicht](https://github.com/EinsVier/KI-Tools/blob/main/README.md) 
 
 
 
